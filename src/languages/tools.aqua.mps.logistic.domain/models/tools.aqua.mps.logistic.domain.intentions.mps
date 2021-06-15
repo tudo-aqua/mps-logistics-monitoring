@@ -625,7 +625,7 @@
       <node concept="3clFbS" id="5Dl1ov3Jvtm" role="2VODD2">
         <node concept="3clFbF" id="5Dl1ov3Jvud" role="3cqZAp">
           <node concept="Xl_RD" id="5Dl1ov3Jvuc" role="3clFbG">
-            <property role="Xl_RC" value="Conver to '&gt;='" />
+            <property role="Xl_RC" value="Convert to '&gt;='" />
           </node>
         </node>
       </node>
