@@ -341,7 +341,7 @@
   <node concept="1TIwiD" id="5QmmaTYKjNB">
     <property role="EcuMT" value="6743674998508043495" />
     <property role="3GE5qa" value="data.expression.arithmetic" />
-    <property role="TrG5h" value="ModuloExpression" />
+    <property role="TrG5h" value="RemainderExpression" />
     <property role="34LRSv" value="%" />
     <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
   </node>
