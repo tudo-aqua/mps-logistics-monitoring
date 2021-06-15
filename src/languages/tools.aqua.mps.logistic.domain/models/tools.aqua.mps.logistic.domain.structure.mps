@@ -375,7 +375,7 @@
   <node concept="1TIwiD" id="5QmmaTYKjNG">
     <property role="EcuMT" value="6743674998508043500" />
     <property role="3GE5qa" value="data.expression.boolean" />
-    <property role="TrG5h" value="GreaterEquals" />
+    <property role="TrG5h" value="GreaterEqualsExpression" />
     <property role="34LRSv" value="&gt;=" />
     <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
   </node>
@@ -428,6 +428,13 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5Dl1ov3JwHE">
+    <property role="EcuMT" value="6509114917096655722" />
+    <property role="3GE5qa" value="data.expression.boolean" />
+    <property role="TrG5h" value="NotEqualsExpression" />
+    <property role="34LRSv" value="!=" />
+    <ref role="1TJDcQ" node="5QmmaTYKjNu" resolve="DataBinaryExpression" />
   </node>
 </model>
 
