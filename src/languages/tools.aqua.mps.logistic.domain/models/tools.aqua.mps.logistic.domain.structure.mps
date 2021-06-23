@@ -294,7 +294,7 @@
     <property role="3GE5qa" value="data.expression.arithmetic" />
     <property role="TrG5h" value="PlusExpression" />
     <property role="34LRSv" value="+" />
-    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
+    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNu">
     <property role="EcuMT" value="6743674998508043486" />
@@ -322,28 +322,28 @@
     <property role="3GE5qa" value="data.expression.arithmetic" />
     <property role="TrG5h" value="MinusExpression" />
     <property role="34LRSv" value="-" />
-    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
+    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjN_">
     <property role="EcuMT" value="6743674998508043493" />
     <property role="3GE5qa" value="data.expression.arithmetic" />
     <property role="TrG5h" value="MultiplicationExpression" />
     <property role="34LRSv" value="*" />
-    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
+    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNA">
     <property role="EcuMT" value="6743674998508043494" />
     <property role="3GE5qa" value="data.expression.arithmetic" />
     <property role="TrG5h" value="DivisonExpression" />
     <property role="34LRSv" value="/" />
-    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
+    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNB">
     <property role="EcuMT" value="6743674998508043495" />
     <property role="3GE5qa" value="data.expression.arithmetic" />
     <property role="TrG5h" value="RemainderExpression" />
     <property role="34LRSv" value="%" />
-    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticExpression" />
+    <ref role="1TJDcQ" node="5QmmaTYKs$p" resolve="DataArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNC">
     <property role="EcuMT" value="6743674998508043496" />
@@ -354,30 +354,30 @@
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjND">
     <property role="EcuMT" value="6743674998508043497" />
-    <property role="3GE5qa" value="data.expression.boolean" />
+    <property role="3GE5qa" value="data.expression.boolean.arithmetic" />
     <property role="TrG5h" value="SmallerExpression" />
     <property role="34LRSv" value="&lt;" />
-    <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
+    <ref role="1TJDcQ" node="3HQ4$PVPBVc" resolve="DataCompareArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNE">
     <property role="EcuMT" value="6743674998508043498" />
-    <property role="3GE5qa" value="data.expression.boolean" />
+    <property role="3GE5qa" value="data.expression.boolean.arithmetic" />
     <property role="TrG5h" value="SmallerEqualsExpression" />
-    <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
+    <ref role="1TJDcQ" node="3HQ4$PVPBVc" resolve="DataCompareArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNF">
     <property role="EcuMT" value="6743674998508043499" />
-    <property role="3GE5qa" value="data.expression.boolean" />
+    <property role="3GE5qa" value="data.expression.boolean.arithmetic" />
     <property role="TrG5h" value="GreaterExpression" />
     <property role="34LRSv" value="&gt;" />
-    <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
+    <ref role="1TJDcQ" node="3HQ4$PVPBVc" resolve="DataCompareArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNG">
     <property role="EcuMT" value="6743674998508043500" />
-    <property role="3GE5qa" value="data.expression.boolean" />
+    <property role="3GE5qa" value="data.expression.boolean.arithmetic" />
     <property role="TrG5h" value="GreaterEqualsExpression" />
     <property role="34LRSv" value="&gt;=" />
-    <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
+    <ref role="1TJDcQ" node="3HQ4$PVPBVc" resolve="DataCompareArithmeticBinaryExpression" />
   </node>
   <node concept="1TIwiD" id="5QmmaTYKjNH">
     <property role="EcuMT" value="6743674998508043501" />
@@ -403,7 +403,7 @@
   <node concept="1TIwiD" id="5QmmaTYKs$p">
     <property role="EcuMT" value="6743674998508079385" />
     <property role="3GE5qa" value="data.expression.arithmetic" />
-    <property role="TrG5h" value="DataArithmeticExpression" />
+    <property role="TrG5h" value="DataArithmeticBinaryExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5QmmaTYKjNu" resolve="DataBinaryExpression" />
   </node>
@@ -435,6 +435,13 @@
     <property role="TrG5h" value="NotEqualsExpression" />
     <property role="34LRSv" value="!=" />
     <ref role="1TJDcQ" node="5QmmaTYKjNu" resolve="DataBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="3HQ4$PVPBVc">
+    <property role="EcuMT" value="4284632219489042124" />
+    <property role="3GE5qa" value="data.expression.boolean.arithmetic" />
+    <property role="TrG5h" value="DataCompareArithmeticBinaryExpression" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="5QmmaTYKjNI" resolve="DataBooleanBinaryExpression" />
   </node>
 </model>
 

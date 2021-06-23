@@ -23,7 +23,7 @@
       <concept id="6743674998508161588" name="tools.aqua.mps.logistic.domain.structure.IntConstant" flags="ng" index="zllaq">
         <property id="6743674998508161589" name="value" index="zllar" />
       </concept>
-      <concept id="6743674998508043501" name="tools.aqua.mps.logistic.domain.structure.AndExpression" flags="ng" index="zlQh3" />
+      <concept id="6743674998508043499" name="tools.aqua.mps.logistic.domain.structure.GreaterExpression" flags="ng" index="zlQh5" />
       <concept id="6743674998508043492" name="tools.aqua.mps.logistic.domain.structure.MinusExpression" flags="ng" index="zlQha" />
       <concept id="6743674998508043486" name="tools.aqua.mps.logistic.domain.structure.DataBinaryExpression" flags="ng" index="zlQhK">
         <child id="6743674998508043489" name="right" index="zlQhf" />
@@ -84,7 +84,7 @@
           </node>
         </node>
       </node>
-      <node concept="zlQh3" id="5Dl1ov3Jm3r" role="3ebXfW">
+      <node concept="zlQh5" id="3HQ4$PVPB9d" role="3ebXfW">
         <node concept="zlQha" id="5QmmaTYKKBc" role="zlQhL">
           <node concept="za35d" id="5QmmaTYJIYL" role="zlQhL">
             <node concept="za3af" id="5QmmaTYJIYR" role="za51y">
@@ -121,7 +121,7 @@
             </node>
           </node>
         </node>
-        <node concept="zllaq" id="5QmmaTYKLD8" role="zlQhf">
+        <node concept="zllaq" id="3HQ4$PVPBaz" role="zlQhf">
           <property role="zllar" value="0" />
         </node>
       </node>
